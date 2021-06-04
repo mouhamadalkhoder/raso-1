@@ -11606,7 +11606,7 @@ font-family: var(--thm-font);
 
 @media (max-width: 767px){
   .section-title .title {
-    margin-top: -50px;
+    margin-top: -10px;
   }
 }
 
@@ -11616,3 +11616,13 @@ font-family: var(--thm-font);
 .sigma_custom-arrows {
   margin-left: 215px;
 }}
+
+@media (max-width: 767px){
+  .section-title .title44 {
+    margin-top:-50px;
+    font-size: 40px;
+
+  }}
+  .title44{
+    font-size:52px
+  }

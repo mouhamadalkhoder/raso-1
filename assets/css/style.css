@@ -6934,7 +6934,7 @@ hr {
   z-index: 1;
   position: relative;
   display: block;
- height: 150px;
+ height: 100px;
   background-color: #fff;
   border: 1px solid var(--thm-border);
   text-align: left;

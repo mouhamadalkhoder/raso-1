@@ -4,8 +4,8 @@
 :root {
   --thm-font: "Rubik", sans-serif; /* Headings */
   --thm-b-font: "Rubik", sans-serif; /* Body font */
-  --thm-base: #0080c0; /* Primary color */
-  --thm-base-hover: #0080c0; /* Primary hover */
+  --thm-base: #00264A; /* Primary color */
+  --thm-base-hover: #00264A; /* Primary hover */
   --thm-base-rgb: 222, 30, 7; /* Primary rgb */
   --thm-base-hue: #ffecea; /* Primary low hue */
   --thm-secondary: #232230; /* Secondary */
@@ -1451,6 +1451,7 @@ input[type=checkbox]:checked+label.switch-toggle:after {
 .sigma_custom-arrows .slick-next{
   background-color: var(--thm-base);
   opacity: 1;
+  color: #fff;
   visibility: visible;
   cursor: pointer;
 }
@@ -1469,7 +1470,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--thm-font);
   font-weight: 600;
-  color: #0080c0;
+  color: #00264A;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -6001,7 +6002,7 @@ hr {
     display: block;
     line-height: 1;
     font-weight: 600;
-    color: #0080C0;
+    color: #00264A;
 }
 
 .sigma_service.style-9 .sigma_service-body h5 a{
@@ -10261,7 +10262,7 @@ hr {
 
 /*-------------- Preloader Sections --------------------------- */
 .sigma_preloader {
-  background-color: #0080c0;
+  background-color: #00264A;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -10530,7 +10531,7 @@ hr {
 .preloader-gear-inner>div div:nth-child(6) {
   width: 80px;
   height: 80px;
-  background: #0080c0;
+  background: #00264A;
   border-radius: 50%;
 }
 
@@ -11535,27 +11536,27 @@ hr {
 }
 
 .section-title h3{
-  color:#0080c0
+  color:#00264A
 }
 .section-title p{
 font-family: var(--thm-font);
 
 }
 .fas  {
-  color:#0080c0;
+  color:#00264A;
   padding-right: 5px;
 }
 
 .fab{
-  color:#0080c0;
+  color:#00264A;
 }
 
 .section-title .title h2{
-  color:#0080c0
+  color:#00264A
 }
 
 .title h2{
-  color:#0080c0
+  color:#00264A
 }
 
 .section.section-padding1 {
@@ -11573,7 +11574,7 @@ font-family: var(--thm-font);
   display: block;
   line-height: 1;
   font-weight: 600;
-  color: #0080C0;
+  color: #00264A;
 }
 
 .sigma_footer-widget a{

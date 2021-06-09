@@ -11543,8 +11543,11 @@ font-family: var(--thm-font);
 
 }
 .fas  {
-  color:#00264A;
+  color:white;
   padding-right: 5px;
+}
+.fal{
+  color:white
 }
 
 .fab{
@@ -11627,3 +11630,10 @@ font-family: var(--thm-font);
   .title44{
     font-size:52px
   }
+
+  
+@media (max-width: 767px){
+  .section-title11 .title22 h3{
+    margin-top:-50px;
+    font-size: 40px;  
+  }  }

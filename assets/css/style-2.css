@@ -798,7 +798,7 @@ input[type=reset].tertiary:before,
 input[type="button"].tertiary:before,
 input[type="submit"].tertiary:before,
 .sigma_btn.tertiary:before,
-button.tertiary:before, {
+button.tertiary:before {
   background-color: #4224b1;
 }
 
@@ -825,7 +825,7 @@ input[type="submit"].light:before,
 .btn-pill input[type=reset]:before,
 .btn-pill input[type="button"]:before,
 .btn-pill input[type="submit"]:before,
-.btn-pill .sigma_btn:before, {
+.btn-pill .sigma_btn:before {
   border-radius: 25px;
 }
 
@@ -2763,7 +2763,7 @@ table img {
 .sigma_info.style-19 .sigma_info-title .sigma_info-icon,
 .sigma_info.style-12 .sigma_info-title .sigma_info-icon,
 .sigma_info.style-13 .sigma_info-title .sigma_info-icon,
-.sigma_info.style-16 .sigma_info-title .sigma_info-icon, {
+.sigma_info.style-16 .sigma_info-title .sigma_info-icon {
   margin-right: 0;
 }
 
@@ -6964,7 +6964,7 @@ hr {
 .sigma_testimonial.style-2 .sigma_testimonial-body .sigma_testimonial-icon,
 .sigma_testimonial.style-3 .sigma_testimonial-body .sigma_testimonial-icon,
 .sigma_testimonial.style-10 .sigma_testimonial-body .sigma_testimonial-icon,
-.sigma_testimonial.style-11 .sigma_testimonial-body .sigma_testimonial-icon, {
+.sigma_testimonial.style-11 .sigma_testimonial-body .sigma_testimonial-icon {
   margin-top: 0;
   font-size: 40px;
 }

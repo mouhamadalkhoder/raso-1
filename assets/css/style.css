@@ -318,7 +318,12 @@ body {
   font-family:var(--thm-font);
 }
 
-
+.section-title a{
+  position: relative;
+  max-width: 680px;
+  margin-top: 10px;
+  font-family:var(--thm-font);
+}
 .section-title.centered {
   text-align: center;
   margin: 0 auto 50px;
@@ -11637,3 +11642,62 @@ font-family: var(--thm-font);
     margin-top:-50px;
     font-size: 40px;  
   }  }
+
+
+  @media only screen and (min-width: 991px) {
+    .sigma_info-image1 img{
+      margin-top: -150px;
+    }
+  }
+  @media only screen and (min-width: 991px) {
+
+    .section-title .text-white1  {
+      margin-top:-10px;
+      color:white
+    }
+  }
+  @media only screen and (min-width: 991px) {
+
+    .section-title  .title1 {
+      margin-top:-120px;
+      color:white
+    }
+  }
+  @media only screen and (max-width: 991px) {
+
+  .section-title  .title1 {
+    color:white;
+    margin-top:-60px
+  }}
+
+
+  .fa-check-circle{
+    color:#00264A
+  }
+
+.section-title .title .text-white a{
+  font-weight: 700;
+
+  line-height: 1;
+  position: relative;
+  margin-top: 10px;
+}
+
+.text-white12 {
+  color:white
+}
+
+
+.bg-secondary-2{
+  background-color: #00264A;
+}
+.sigma_logo img{
+  width: 150px
+}
+
+
+.bg-secondary-3{
+  background-color: white;
+}
+
+

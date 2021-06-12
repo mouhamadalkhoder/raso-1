@@ -6602,6 +6602,7 @@ hr {
   align-items: center;
   justify-content: center;
   transition: 0.3s;
+  margin-left: 30px;
 }
 
 .sigma_social-icons li+li {
@@ -11649,17 +11650,11 @@ font-family: var(--thm-font);
       margin-top: -150px;
     }
   }
-  @media only screen and (min-width: 991px) {
 
-    .section-title .text-white1  {
-      margin-top:-10px;
-      color:white
-    }
-  }
   @media only screen and (min-width: 991px) {
 
     .section-title  .title1 {
-      margin-top:-120px;
+      margin-top:-20px;
       color:white
     }
   }
@@ -11667,7 +11662,7 @@ font-family: var(--thm-font);
 
   .section-title  .title1 {
     color:white;
-    margin-top:-60px
+    margin-top:-10px
   }}
 
 
@@ -11701,3 +11696,23 @@ font-family: var(--thm-font);
 }
 
 
+@media only screen and (min-width: 991px) {
+  .sigma_info-image1 img{
+    margin-top:-180px;
+    width:287px;
+    height:264px;
+    
+    
+  }
+
+}
+@media only screen and (min-width: 991px) {
+  .sigma_info-image2 img{
+    margin-top:-230px;
+    width:287px;
+    height:264px;
+    
+    
+  }
+
+}

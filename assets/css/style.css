@@ -11662,7 +11662,7 @@ font-family: var(--thm-font);
 
   .section-title  .title1 {
     color:white;
-    margin-top:-10px
+    margin-top:-13px
   }}
 
 
@@ -11679,9 +11679,14 @@ font-family: var(--thm-font);
 }
 
 .text-white12 {
-  color:white
-}
+  color:white;
+  font-size:16px
 
+}
+.text-white1 {
+  color:white;
+  font-size:16px
+}
 
 .bg-secondary-2{
   background-color: #00264A;
@@ -11699,8 +11704,8 @@ font-family: var(--thm-font);
 @media only screen and (min-width: 991px) {
   .sigma_info-image1 img{
     margin-top:-180px;
-    width:287px;
-    height:264px;
+    width:300px;
+    height:280px;
     
     
   }
@@ -11709,10 +11714,11 @@ font-family: var(--thm-font);
 @media only screen and (min-width: 991px) {
   .sigma_info-image2 img{
     margin-top:-230px;
-    width:287px;
-    height:264px;
+    width:300px;
+    height:280px;
     
     
   }
 
 }
+

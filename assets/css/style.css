@@ -11722,3 +11722,8 @@ font-family: var(--thm-font);
 
 }
 
+@media only screen and (min-width: 991px) {
+
+  .serv12{
+    margin-top: -200px;
+  }}

@@ -5,7 +5,7 @@ $(document).ready(function () {
     $("#trB").hide();
     $("#enB").show();
 
-    localStorage.setItem("lastname", "english");
+    localStorage.setItem("lastname", "turkish");
     a = localStorage.getItem("lastname");
   });
 
@@ -20,6 +20,7 @@ $(document).ready(function () {
     a = localStorage.getItem("lastname");
   });
   a = localStorage.getItem("lastname");
+
   if (a == "turkish") {
     $(document).ready(function () {
       $(".english").hide();

@@ -8,7 +8,7 @@
   --thm-base-hover: #00264a; /* Primary hover */
   --thm-base-rgb: 222, 30, 7; /* Primary rgb */
   --thm-base-hue: #ffecea; /* Primary low hue */
-  --thm-secondary: #1e1f24; /* Secondary */1e1f24
+  --thm-secondary: #1e1f24; /* Secondary */
   --thm-secondary-rgb: 35, 34, 48; /* Secondary rgb */
   --thm-b-text: #4e5164; /* Body text */
   --thm-border: #e1e1e1; /* Borders */
@@ -5231,6 +5231,12 @@ hr {
 .sigma_post-details-meta-item .sigma_sm li a:hover {
   background-color: var(--thm-base);
   color: #fff;
+}
+.left-box{
+  top: 60px;
+  left: -80px!important;
+  position: absolute;
+  right: 260px!important
 }
 
 .content-title{
@@ -11706,11 +11712,18 @@ margin-bottom:30px;
 @media only screen and (min-width: 991px) {
   .serv12 {
     margin-top: -200px;
-<<<<<<< HEAD
-  }
-}
-=======
   }}
 
 
->>>>>>> b5d9708f27f26b537da45a810090bebcd286cc9e
+
+  @media only screen and (min-width: 600px) {
+    .c1 p{
+    margin-top:-80px
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .c2 p{
+    margin-top:-20px
+    }
+  }

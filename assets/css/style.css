@@ -1574,6 +1574,16 @@ table th {
   color: var(--thm-secondary);
   font-size: 16px;
   border: 1px solid var(--thm-border);
+} 
+#trb{
+  width:50px;
+  margin-right:8px;
+  margin-bottom:12px;
+}
+#enB{
+  width:50px;
+  margin-right:8px;
+  margin-bottom:12px;
 }
 
 table {

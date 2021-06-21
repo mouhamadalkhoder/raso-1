@@ -5232,6 +5232,12 @@ hr {
   background-color: var(--thm-base);
   color: #fff;
 }
+.left-box{
+  top: 60px;
+  left: -80px!important;
+  position: absolute;
+  right: 260px!important
+}
 
 .content-title{
 margin-bottom:30px;

@@ -267,7 +267,12 @@ body {
 .gallery-thumb {
   position: relative;
 }
-
+#trB {
+  margin-bottom: 13px;
+}
+#enB {
+  margin-bottom: 13px;
+}
 .gallery-thumb::before {
   content: "\f002";
   position: absolute;
@@ -1265,11 +1270,11 @@ input[type="checkbox"]:checked + label.switch-toggle:after {
 .light-bg {
   background-color: #f7f7f7;
 }
-.white-text{
-  color:white;
+.white-text {
+  color: white;
 }
-.white-texth3{
-  color:white;
+.white-texth3 {
+  color: white;
 }
 .bg-white {
   background-color: #fff;
@@ -5232,15 +5237,15 @@ hr {
   background-color: var(--thm-base);
   color: #fff;
 }
-.left-box{
+.left-box {
   top: 60px;
-  left: -80px!important;
+  left: -80px !important;
   position: absolute;
-  right: 260px!important
+  right: 260px !important;
 }
 
-.content-title{
-margin-bottom:30px;
+.content-title {
+  margin-bottom: 30px;
 }
 
 .sigma_author-about {
@@ -9427,7 +9432,6 @@ margin-bottom:30px;
 }
 
 .sigma_about.style-9 .sigma_media span {
-
   right: -80px;
 }
 
@@ -11676,7 +11680,7 @@ margin-bottom:30px;
 .text-white12 {
   color: white;
   font-size: 16px;
-  margin-bottom:12px;
+  margin-bottom: 12px;
 }
 .text-white1 {
   color: white;
@@ -11712,16 +11716,22 @@ margin-bottom:30px;
 @media only screen and (min-width: 991px) {
   .serv12 {
     margin-top: -200px;
-  }}
-
-
-
-  @media only screen and (min-width: 600px) {
-    .c1 p{
-    margin-top:-80px
-    }
   }
+}
 
+@media only screen and (min-width: 600px) {
+  .c1 p {
+    margin-top: -80px;
+  }
+}
+
+<<<<<<< HEAD
+@media only screen and (min-width: 600px) {
+  .c2 p {
+    margin-top: -20px;
+  }
+}
+=======
   @media only screen and (min-width: 600px) {
     .c2 p{
     margin-top:-20px
@@ -11741,6 +11751,7 @@ margin-bottom:30px;
 
     }
   }
+<<<<<<< HEAD
 
 
   @media only screen and (min-width: 600px) {
@@ -11757,3 +11768,6 @@ margin-bottom:30px;
     margin-top: 10px;
     }
   }
+=======
+>>>>>>> c9f4dc1c5f03f71bb65ab0f42c76c6de11509662
+>>>>>>> a08f93c26a50038886b23338a0d5a8447ebe3871

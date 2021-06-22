@@ -247,11 +247,13 @@ body {
   font-size: 16px;
   line-height: 1.8;
 }
-#trB{
-  width:50px;margin-right: 8px;
+#trB {
+  width: 50px;
+  margin-right: 8px;
 }
-#enB{
-  width:50px;margin-right: 8px;
+#enB {
+  width: 50px;
+  margin-right: 8px;
 }
 
 .texture-1 {
@@ -6036,7 +6038,28 @@ hr {
 .sigma_service.style-9:hover:before {
   height: 100%;
 }
+.h2-box {
+  background-color: #00264a;
+  padding: 36px;
+  padding-left: 30px;
+  min-width: 320px;
 
+  display: flex;
+  margin-top: -30px;
+  text-align: center;
+  margin-left: -60px;
+}
+.h2-box-right {
+  background-color: #00264a;
+  padding: 36px;
+  padding-left: 30px;
+  min-width: 320px;
+  z-index: 1;
+  display: flex;
+  margin-top: -460px;
+  text-align: center;
+  margin-left: 120px;
+}
 .sigma_service.style-9.dark span {
   position: absolute;
   right: 50px;
@@ -9371,7 +9394,7 @@ hr {
 .sigma_about.style-9 .sigma_media span {
   position: absolute;
   right: 0;
-  top: 0; 
+  top: 0;
 
   align-items: center;
   font-family: var(--thm-font);
@@ -11731,6 +11754,11 @@ hr {
   }
 }
 
+@media only screen and (min-width: 600px) {
+  .c2 p {
+    margin-top: -20px;
+  }
+}
 
 @media only screen and (min-width: 600px) {
   .c2 p {
@@ -11738,39 +11766,27 @@ hr {
   }
 }
 
-  @media only screen and (min-width: 600px) {
-    .c2 p{
-    margin-top:-20px
-    }
+@media only screen and (min-width: 600px) {
+  .c3 {
+    margin-top: 0px;
+    margin-left: 50px;
   }
-
-  @media only screen and (min-width: 600px) {
-    .c3 {
-    margin-top:0px;
-    margin-left:50px
-    }
+}
+@media only screen and (min-width: 600px) {
+  .c4 p {
+    margin-top: 5px;
+    margin-right: 40px;
   }
-  @media only screen and (min-width: 600px) {
-    .c4 p{
-    margin-top:5px;
-    margin-right:40px
+}
 
-    }
+@media only screen and (min-width: 600px) {
+  .bl i {
+    margin-left: 50px;
   }
+}
 
-
-  @media only screen and (min-width: 600px) {
-    .bl i{
-      margin-left: 50px;
-    }
-  }
-
-
-
-
-  @media only screen and (min-width: 600px) {
-    .sigma_info-description p{
+@media only screen and (min-width: 600px) {
+  .sigma_info-description p {
     margin-top: 10px;
-    }
   }
-
+}

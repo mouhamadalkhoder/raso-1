@@ -6047,7 +6047,7 @@ hr {
   display: flex;
   margin-top: -30px;
   text-align: center;
-  margin-left: -60px;
+  
 }
 .h2-box-right {
   background-color: #00264a;
@@ -11790,3 +11790,10 @@ hr {
     margin-top: 10px;
   }
 }
+@media only screen and (max-width: 990px) {
+  .c3 {
+    margin-top: 0px;
+    margin-left: 50px;
+  }
+}
+

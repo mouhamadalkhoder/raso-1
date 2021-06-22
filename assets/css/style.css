@@ -6056,9 +6056,9 @@ hr {
   min-width: 320px;
   z-index: 1;
   display: flex;
-  margin-top: -460px;
+  margin-top: -450px;
   text-align: center;
-  margin-left: 120px;
+  margin-left: 200px;
 }
 .sigma_service.style-9.dark span {
   position: absolute;

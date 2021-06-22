@@ -11725,13 +11725,13 @@ hr {
   }
 }
 
-<<<<<<< HEAD
+
 @media only screen and (min-width: 600px) {
   .c2 p {
     margin-top: -20px;
   }
 }
-=======
+
   @media only screen and (min-width: 600px) {
     .c2 p{
     margin-top:-20px
@@ -11751,7 +11751,6 @@ hr {
 
     }
   }
-<<<<<<< HEAD
 
 
   @media only screen and (min-width: 600px) {
@@ -11768,6 +11767,4 @@ hr {
     margin-top: 10px;
     }
   }
-=======
->>>>>>> c9f4dc1c5f03f71bb65ab0f42c76c6de11509662
->>>>>>> a08f93c26a50038886b23338a0d5a8447ebe3871
+

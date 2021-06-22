@@ -11725,8 +11725,30 @@ hr {
   }
 }
 
+<<<<<<< HEAD
 @media only screen and (min-width: 600px) {
   .c2 p {
     margin-top: -20px;
   }
 }
+=======
+  @media only screen and (min-width: 600px) {
+    .c2 p{
+    margin-top:-20px
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .c3 {
+    margin-top:0px;
+    margin-left:50px
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .c4 p{
+    margin-top:5px;
+    margin-right:40px
+
+    }
+  }
+>>>>>>> c9f4dc1c5f03f71bb65ab0f42c76c6de11509662

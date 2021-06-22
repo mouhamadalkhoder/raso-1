@@ -9360,8 +9360,8 @@ margin-bottom:30px;
 .sigma_about.style-9 .sigma_media span {
   position: absolute;
   right: 0;
-  top: 0;
-  display: flex;
+  top: 0; 
+
   align-items: center;
   font-family: var(--thm-font);
   background-color: var(--thm-base);
@@ -11739,5 +11739,21 @@ margin-bottom:30px;
     margin-top:5px;
     margin-right:40px
 
+    }
+  }
+
+
+  @media only screen and (min-width: 600px) {
+    .bl i{
+      margin-left: 50px;
+    }
+  }
+
+
+
+
+  @media only screen and (min-width: 600px) {
+    .sigma_info-description p{
+    margin-top: 10px;
     }
   }

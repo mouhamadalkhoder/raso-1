@@ -11781,13 +11781,14 @@ hr {
 
 @media only screen and (min-width: 600px) {
   .bl i {
-    margin-left: 50px;
+    margin-left: 70px;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .sigma_info-description p {
     margin-top: 10px;
+    margin-left: 20px;
   }
 }
 @media only screen and (max-width: 990px) {
@@ -11797,3 +11798,8 @@ hr {
   }
 }
 
+@media only screen and (min-width: 600px) {
+  .b2 i {
+    margin-left: 85px;
+  }
+}

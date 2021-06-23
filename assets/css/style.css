@@ -3537,6 +3537,7 @@ hr {
 }
 .sigma_info.style-18 + .sigma_info.style-18 {
   padding-left: 25px;
+  margin-right: -25px;
   border-left: 2px solid rgba(255, 255, 255, 0.3);
 }
 .sigma_info.style-18 .sigma_info-title .sigma_info-icon {
@@ -11781,7 +11782,7 @@ hr {
 
 @media only screen and (min-width: 600px) {
   .bl i {
-    margin-left: 70px;
+    margin-left: 90px;
   }
 }
 
@@ -11803,3 +11804,11 @@ hr {
     margin-left: 85px;
   }
 }
+
+@media only screen and (min-width: 600px) {
+  .b6 {
+    margin-left: 70px;
+
+  }
+}
+

@@ -6041,12 +6041,12 @@ hr {
 }
 .h2-box {
   background-color: #00264a;
-  padding: 36px;
+  padding:20px;
   padding-left: 30px;
   min-width: 320px;
 
   display: flex;
-  margin-top: -30px;
+  margin-top: -20px;
   text-align: center;
   
 }
@@ -11782,7 +11782,7 @@ hr {
 
 @media only screen and (min-width: 600px) {
   .bl i {
-    margin-left: 90px;
+    margin-left: 108px;
   }
 }
 
@@ -11812,3 +11812,10 @@ hr {
   }
 }
 
+
+@media only screen and (min-width: 600px) {
+  .b9 {
+    margin-left: 20px;
+
+  }
+}

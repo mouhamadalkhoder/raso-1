@@ -9086,7 +9086,7 @@ hr {
 
 /* Dark Footer */
 .sigma_footer.sigma_footer-dark {
-  background-color: var(--thm-secondary);
+  background-color: #1D1E23;
 }
 
 .sigma_footer.sigma_footer-dark .sigma_social-icons li a {
@@ -11821,4 +11821,12 @@ hr {
 }
 .b1{
   margin-top:200px
+}
+
+
+
+
+
+.g1{
+margin-left: 60px;
 }

@@ -11830,3 +11830,12 @@ hr {
 .g1{
 margin-left: 60px;
 }
+
+
+
+@media only screen and (min-width: 600px) {
+  .v1 {
+    margin-top: -150px;
+  }}
+
+ 

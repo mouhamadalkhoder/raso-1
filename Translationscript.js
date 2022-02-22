@@ -7,6 +7,7 @@ $(document).ready(function () {
 
     localStorage.setItem("lastname", "turkish");
     a = localStorage.getItem("lastname");
+    alert(a);
   });
 
   $("#enB").click(function () {
@@ -18,6 +19,7 @@ $(document).ready(function () {
 
     localStorage.setItem("lastname", "english");
     a = localStorage.getItem("lastname");
+    alert(a);
   });
   a = localStorage.getItem("lastname");
 
